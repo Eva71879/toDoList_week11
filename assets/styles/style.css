@@ -42,4 +42,15 @@ h1 {
 
 .taskList {
     list-style-type:square;
+    font-size: 26px;
+}
+
+li {
+    cursor: pointer;
+    padding: 10%;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: grey;
 }
